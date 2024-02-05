@@ -20,7 +20,7 @@ jobs:
         server: ftp.wikum.live
         username: tharindu@wikum.live
         password: Wikum@123
-server-dir: /
+        server-dir: /
 
     # - name: 🛠 Install Composer and npm
     #   run: |
