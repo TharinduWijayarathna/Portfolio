@@ -29,15 +29,15 @@ jobs:
     #     # Install npm
     #     sudo apt-get install -y npm
 
-    # - name: 📝 Create .env file
-    #   run: |
-    #     echo "DB_CONNECTION=mysql" >> .env
-    #     echo "APP_NAME=mmobile" > .env
-    #     echo "DB_HOST=127.0.0.1" >> .env
-    #     echo "DB_PORT=3306" >> .env
-    #     echo "DB_DATABASE=mmobxkmg_mmobiledb" >> .env
-    #     echo "DB_USERNAME=mmobxkmg_serendibadmin" >> .env
-    #     echo "DB_PASSWORD=5v{9r6kEZLi$" >> .env
+    - name: 📝 Create .env file
+      run: |
+        echo "DB_CONNECTION=mysql" >> .env
+        echo "APP_NAME=Wikum" > .env
+        echo "DB_HOST=127.0.0.1" >> .env
+        echo "DB_PORT=3306" >> .env
+        echo "DB_DATABASE=ewinleyc_portfolio" >> .env
+        echo "DB_USERNAME=ewinleyc_portfolio" >> .env
+        echo "DB_PASSWORD=Wikum@123" >> .env
 
     - name: 🛠 Install PHP dependencies
       run: composer install
