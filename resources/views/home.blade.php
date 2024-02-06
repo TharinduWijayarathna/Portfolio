@@ -5,6 +5,36 @@
     <title>Tharindu Wijayarathna</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="keywords"
+        content="Tharindu Wijayarathna, Portfolio, Web Developer, Software Engineer, Graphic Designer" />
+    <meta name="description"
+        content="Welcome to the portfolio of Tharindu Wijayarathna. I specialize in web development, software solutions, and graphic design. Explore my work and skills." />
+
+    <meta name="og:image" property="og:image" content="{{ asset('/images/about.jpg') }}" />
+    <meta name="og:image:secure_url" property="og:image:secure_url"
+        content="{{ asset('/images/about.jpg') }}" />
+    <meta name="og:image:width" property="og:image:width" content="@yield('ogimagewidth', 500)" />
+    <meta name="og:image:height" property="og:image:height" content="@yield('ogimageheight', 200)" />
+    <meta name="og:image:alt" property="og:image:alt"
+        content="Tharindu Wijayarathna | Portfolio - Showcasing my skills and projects!" />
+    <meta name="og:site_name" property="og:site_name" content="Tharindu Wijayarathna - Portfolio" />
+    <meta name="og:type" property="og:type" content="@yield('og-type', 'website')" />
+    <meta name="og:title" property="og:title" content="@yield('og-title', 'Tharindu Wijayarathna | Portfolio')" />
+    <meta name="og:url" property="og:url" content="{{ Request::url() }}" />
+    <meta name="og:description" property="og:description"
+        content="Welcome to the portfolio of Tharindu Wijayarathna. I specialize in web development, software solutions, and graphic design. Explore my work and skills." />
+
+    <meta name="twitter:image:src" content="{{ asset('/images/about.jpg') }}" />
+    <meta name="twitter:site" content="@YourTwitterHandle" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="@yield('og-title', 'Tharindu Wijayarathna | Portfolio')" />
+    <meta name="twitter:description"
+        content="Welcome to the portfolio of Tharindu Wijayarathna. I specialize in web development, software solutions, and graphic design. Explore my work and skills." />
+
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -129,7 +159,7 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <h1 class="big">About</h1>
                             <h2 class="mb-4">About Me</h2>
-                             <p>A highly motivated and hardworking individual, who always strives to achieve the highest
+                            <p>A highly motivated and hardworking individual, who always strives to achieve the highest
                                 standard possible, at any given task.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Name:</span> <span>Tharindu Wijayarathna</span></li>
@@ -753,16 +783,16 @@
                     <form class="bg-light p-4 p-md-5 contact-form" enctype="multipart/form-data" id='contact-form'>
                         @csrf
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
-                                required>
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
-                                required>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
-                                required>
+                            <input type="text" class="form-control" id="subject" name="subject"
+                                placeholder="Subject" required>
                         </div>
                         <div class="form-group">
                             <textarea cols="30" rows="7" id="message" name="message" class="form-control" required
@@ -810,11 +840,15 @@
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Services</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Desktop App Development</a>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Desktop App
+                                    Development</a>
                             </li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Solutions</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a>
+                            </li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business
+                                    Solutions</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -827,7 +861,8 @@
                                         Ambatenna
 
                                     </span></li>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94 76 578
+                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94
+                                            76 578
                                             1398</span></a></li>
                                 <li><a href="mailto:wikum.dev@gmail.com"><span class="icon icon-envelope"></span><span
                                             class="text"><span class="__cf_email__"
@@ -842,8 +877,7 @@
                 <div class="col-md-12 text-center">
                     <p>
                         Copyright &copy;
-                        <script data-cfasync="false"
-                            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                         <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved
@@ -854,9 +888,10 @@
     </footer>
 
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#F96D00" />
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+                stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+                stroke-miterlimit="10" stroke="#F96D00" />
         </svg></div>
 
 
@@ -877,21 +912,23 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
     </script>
-    <script defer
-        src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
         integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
         data-cf-beacon='{"rayId":"84c85e595b84b2f7","b":1,"version":"2024.1.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
         crossorigin="anonymous"></script>
 
     <script>
         //onsubmit 
-    
-          function postData() {
+
+        function postData() {
             let name = document.getElementById('name').value;
             let email = document.getElementById('email').value;
             let subject = document.getElementById('subject').value;
@@ -902,35 +939,35 @@
             formData.append('subject', subject);
             formData.append('message', message);
             $.ajax({
-                    url: "{{ route('contact') }}",
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    type: 'POST',
-                    data: formData,
-                    contentType: false,
-                    processData: false,
-                    success: function (data) {
-           
-                        if (data == 1) {
-                            Swal.fire({
-                                icon: 'success',
-                                title: 'Success',
-                                text: 'Message Sent Successfully',
-                                showConfirmButton: false,
-                                timer: 1500
-                            })
+                url: "{{ route('contact') }}",
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(data) {
 
-                            document.getElementById('contact-form').reset();
-                        } else {
-                            Swal.fire({
-                                icon: 'error',
-                                title: 'Oops...',
-                                text: data.message,
-                            })
-                        }
-                    },
-          });
+                    if (data == 1) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Success',
+                            text: 'Message Sent Successfully',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+
+                        document.getElementById('contact-form').reset();
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: data.message,
+                        })
+                    }
+                },
+            });
         }
     </script>
 
