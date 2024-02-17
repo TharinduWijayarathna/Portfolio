@@ -130,7 +130,7 @@
                         <h1>Tharindu Wijayarathna</h1>
                         <h2>I'm a
                             <span class="txt-rotate" data-period="2000"
-                                data-rotate="[ &quot;Associate Software Engineer.&quot;, &quot;Content Creator.&quot;]"></span>
+                                data-rotate="[ &quot;Full Statck Developer.&quot;, &quot;Content Creator.&quot;]"></span>
                         </h2>
                     </div>
                 </div>
