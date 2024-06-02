@@ -1279,7 +1279,7 @@ const Home: React.FC = () => {
                                     itemType="http://schema.org/ImageGallery"
                                 >
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1298,7 +1298,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr"
                                             itemProp="caption description"
                                         >
@@ -1313,11 +1313,11 @@ const Home: React.FC = () => {
                                                 Mauris porttitor lobortis ligula, quis molestie lorem
                                                 scelerisque eu. Morbi aliquam enim odio.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1336,7 +1336,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr opposite"
                                             itemProp="caption description"
                                         >
@@ -1350,11 +1350,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1373,7 +1373,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr opposite"
                                             itemProp="caption description"
                                         >
@@ -1387,11 +1387,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1410,7 +1410,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1428,11 +1428,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1451,7 +1451,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1469,11 +1469,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1492,7 +1492,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1510,11 +1510,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1533,7 +1533,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1551,11 +1551,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1574,7 +1574,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1592,11 +1592,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1615,7 +1615,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1633,11 +1633,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1656,7 +1656,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1674,11 +1674,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1697,7 +1697,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1715,11 +1715,11 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                     {/* Works Gallery Single Item Start */}
-                                    <figure
+                                    <div
                                         className="col-12 col-md-6 gallery__item grid-item animate-card-2"
                                         itemProp="associatedMedia"
                                         itemType="http://schema.org/ImageObject"
@@ -1738,7 +1738,7 @@ const Home: React.FC = () => {
                                                 alt="Image description"
                                             />
                                         </a>
-                                        <figcaption
+                                        <div
                                             className="gallery__descr "
                                             itemProp="caption description"
                                         >
@@ -1756,8 +1756,8 @@ const Home: React.FC = () => {
                                                 scelerisque eu. Morbi aliquam enim odio, a mollis ipsum
                                                 tristique eu.
                                             </p>
-                                        </figcaption>
-                                    </figure>
+                                        </div>
+                                    </div>
                                     {/* Works Gallery Single Item End */}
                                 </div>
                             </div>
