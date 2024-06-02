@@ -48,10 +48,10 @@ $(function() {
 
   imgLoad.on('done', instance => {
 
-    document.getElementById("loaderContent").classList.add("fade-out");
-    setTimeout(() => {
-      document.getElementById("loader").classList.add("loaded");
-    }, 300);
+    // document.getElementById("loaderContent").classList.add("fade-out");
+    // setTimeout(() => {
+    //   document.getElementById("loader").classList.add("loaded");
+    // }, 300);
 
     gsap.set(".animate-headline", {y: 50, opacity: 0});
     ScrollTrigger.batch(".animate-headline", {
@@ -209,9 +209,9 @@ $(function() {
     onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 50, overwrite: true})
   });
 
-  ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-2", {y: 0, opacity: 1}));
-  ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-3", {y: 0, opacity: 1}));
-  ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-5", {y: 0, opacity: 1}));
+  // ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-2", {y: 0, opacity: 1}));
+  // ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-3", {y: 0, opacity: 1}));
+  // ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".animate-card-5", {y: 0, opacity: 1}));
   // --------------------------------------------- //
   // Scroll Animations End
   // --------------------------------------------- //
@@ -423,20 +423,20 @@ function loadTheme(theme){
   root.setAttribute('color-scheme', `${theme}`);
 };
 
-themeBtn.addEventListener('click', () => {
-  let theme = getCurrentTheme();
-  if(theme === 'dark'){
-    theme = 'light';
-  } else {
-    theme = 'dark';
-  }
-  localStorage.setItem('template.theme', `${theme}`);
-  loadTheme(theme);
-});
+// themeBtn.addEventListener('click', () => {
+//   let theme = getCurrentTheme();
+//   if(theme === 'dark'){
+//     theme = 'light';
+//   } else {
+//     theme = 'dark';
+//   }
+//   localStorage.setItem('template.theme', `${theme}`);
+//   loadTheme(theme);
+// });
 
-window.addEventListener('DOMContentLoaded', () => {
-  loadTheme(getCurrentTheme());
-});
+// window.addEventListener('DOMContentLoaded', () => {
+//   loadTheme(getCurrentTheme());
+// });
 // --------------------------------------------- //
 // Color Switch End
 // --------------------------------------------- //
