@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import AppLayout from "../../layouts/AppLayout";
-import { useNavigate } from "react-router-dom";
 import emailjs from 'emailjs-com';
 
 const Home: React.FC = () => {
+
+    const [error, setError] = useState<string | null>(null);
+    const [success, setSuccess] = useState<string | null>(null);
 
     const [formData, setFormData] = useState({
         Name: '',
@@ -24,26 +26,30 @@ const Home: React.FC = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
-        emailjs.send(
-            'service_reur3ak', // Replace with your Service ID
-            'template_91idtnp', // Replace with your Template ID
-            formData,
-            '6IN1I7v-Vw55vpnaw' // Replace with your User ID
-        ).then((response) => {
-            console.log('Email successfully sent!', response.status, response.text);
-            alert('Email sent successfully!');
-            setFormData({
-                Name: '',
-                Company: '',
-                'E-mail': '',
-                Phone: '',
-                Message: '',
+        emailjs
+            .send(
+                'service_reur3ak', // Replace with your Service ID
+                'template_91idtnp', // Replace with your Template ID
+                formData,
+                '6IN1I7v-Vw55vpnaw' // Replace with your User ID
+            )
+            .then((response) => {
+                setFormData({
+                    Name: '',
+                    Company: '',
+                    'E-mail': '',
+                    Phone: '',
+                    Message: '',
+                });
+                setSuccess('Your message has been sent successfully!' as string);
+                setError(null);
+            })
+            .catch((error) => {
+                setError('An error occurred while sending your message. Please try again later.' as string);
+                setSuccess(null);
             });
-        }).catch((err) => {
-            console.error('Failed to send email. Error: ', err);
-            alert('Failed to send email.');
-        });
     };
+
 
     return (
         <AppLayout>
@@ -1816,12 +1822,20 @@ const Home: React.FC = () => {
                                         </div>
                                         {/* Reply Messages End */}
                                         {/* Contact Form Start */}
-                                        <form className="form contact-form" id="contact-form" onSubmit={handleSubmit}>
-                                            {/* Hidden Required Fields */}
-                                            <input type="hidden" name="project_name" defaultValue="Starter Template" />
-                                            <input type="hidden" name="admin_email" defaultValue="support@mixdesign.club" />
-                                            <input type="hidden" name="form_subject" defaultValue="Contact Form Message" />
-                                            {/* END Hidden Required Fields */}
+
+                                        {error && (
+                                            <div className="alert alert-danger" role="alert">
+                                                {error}
+                                            </div>
+                                        )}
+
+                                        {success && (
+                                            <div className="alert alert-success" role="alert">
+                                                {success}
+                                            </div>
+                                        )}
+
+                                        <form className="form contact-form" onSubmit={handleSubmit}>
                                             <div className="container-fluid p-0">
                                                 <div className="row gx-0">
                                                     <div className="col-12 col-md-6 form__item animate-in-up">
