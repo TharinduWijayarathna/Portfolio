@@ -55,7 +55,7 @@ const Navbar = () => {
                     <a
                         id="notify-trigger"
                         className="header__trigger btn"
-                        href="mailto:example@example.com?subject=Message%20from%20your%20site"
+                        href="#contact"
                     >
                         <span className="trigger__caption">Let's Communicate</span>
                         <i className="ph-bold ph-chat-dots" />

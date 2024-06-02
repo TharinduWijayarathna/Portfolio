@@ -69,7 +69,7 @@ const Sidebar = () => {
                                 <li className="socials-square__item">
                                     <a
                                         className="socials-square__link btn"
-                                        href="https://twitter.com/lankelk"
+                                        href="https://twitter.com/wikum1100"
                                         target="_blank"
                                     >
                                         <i className="fa-brands fa-x-twitter" />

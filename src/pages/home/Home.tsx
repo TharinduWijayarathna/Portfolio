@@ -485,26 +485,25 @@ const Home: React.FC = () => {
                                 <div className="row g-0 resume-lines__item animate-in-up">
                                     <div className="col-12 col-md-2">
                                         <span className="resume-lines__date animate-in-up">
-                                            Jan 2024 – Apr 2024
+                                            Feb 2022 – Apr 2024
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <h5 className="resume-lines__title animate-in-up">
-                                            Trainee Associate Software Engineer
+                                            Software Engineer
                                         </h5>
                                         <p className="resume-lines__source animate-in-up">
-                                            CyberElysium
+                                            CyberElysium (Pvt) Ltd
                                         </p>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <p className="small resume-lines__descr animate-in-up">
-                                            Actively participated in software development projects,
-                                            contributing to both front-end and back-end tasks. Worked
-                                            diligently in alignment with agile methodologies and
-                                            software architecture paradigms, such as MVC and layered
-                                            architectures. Collaborated closely with team members to
-                                            ensure the successful delivery of high-quality software
-                                            solutions.
+                                            Responsible for developing software solutions, focusing on
+                                            enhancing user experience and performance. Worked on
+                                            various projects, including web applications and mobile
+                                            apps, gaining practical experience in full-stack
+                                            development. Collaborated with senior developers to
+                                            deliver high-quality software solutions.
                                         </p>
                                     </div>
                                 </div>
@@ -512,25 +511,25 @@ const Home: React.FC = () => {
                                 <div className="row g-0 resume-lines__item animate-in-up">
                                     <div className="col-12 col-md-2">
                                         <span className="resume-lines__date animate-in-up">
-                                            Jul 2023 – Jan 2024
+                                            Sep 2020 - Feb 2022
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <h5 className="resume-lines__title animate-in-up">
-                                            Intern Full-Stack Developer
+                                            Associate Software Engineer
                                         </h5>
                                         <p className="resume-lines__source animate-in-up">
-                                            CyberElysium
+                                            CyberElysium (Pvt) Ltd
                                         </p>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <p className="small resume-lines__descr animate-in-up">
-                                            Assisted in the research and development, as well as the
-                                            implementation of software solutions. Focused on
-                                            optimizing performance and scalability, contributing to
-                                            the creation of robust and efficient applications. Gained
-                                            hands-on experience in various aspects of the development
-                                            lifecycle.
+                                            Played a key role in developing software solutions,
+                                            focusing on enhancing user experience and performance.
+                                            Worked on various projects, including web applications and
+                                            mobile apps, gaining practical experience in full-stack
+                                            development. Collaborated with senior developers to
+                                            deliver high-quality software solutions.
                                         </p>
                                     </div>
                                 </div>
@@ -538,25 +537,25 @@ const Home: React.FC = () => {
                                 <div className="row g-0 resume-lines__item animate-in-up">
                                     <div className="col-12 col-md-2">
                                         <span className="resume-lines__date animate-in-up">
-                                            Feb 2023 – Jul 2023
+                                            Mar 2020 – Sep 2020
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <h5 className="resume-lines__title animate-in-up">
-                                            Intern Software Developer
+                                            Software Engineer Intern
                                         </h5>
                                         <p className="resume-lines__source animate-in-up">
-                                            FlexyCode
+                                            CyberElysium (Pvt) Ltd
                                         </p>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <p className="small resume-lines__descr animate-in-up">
-                                            Engaged in project management activities, organizing tasks
-                                            and maintaining project documentation. Played a key role
-                                            in ensuring the smooth execution of projects by
-                                            coordinating with team members and stakeholders. Developed
-                                            a solid understanding of the importance of thorough
-                                            documentation and task management.
+                                            Participated in the development of software solutions,
+                                            focusing on enhancing user experience and performance.
+                                            Worked on various projects, including web applications and
+                                            mobile apps, gaining practical experience in full-stack
+                                            development. Collaborated with senior developers to
+                                            deliver high-quality software solutions.
                                         </p>
                                     </div>
                                 </div>
@@ -1946,8 +1945,8 @@ const Home: React.FC = () => {
                                         </p>
                                         <p className="contact-lines__text animate-in-up">
                                             <a className="text-link-bold" href="" target="_blank">
-                                                No. 20, King's Court, Ambathenna, <br />
-                                                Kandy, Sri Lanka 20136
+                                                No. 79, Hapugoda, Ambatenna, <br />
+                                                Kandy, Sri Lanka (20136)
                                             </a>
                                         </p>
                                     </div>
@@ -1956,7 +1955,7 @@ const Home: React.FC = () => {
                                         <p className="contact-lines__title animate-in-up">Phone</p>
                                         <p className="contact-lines__text animate-in-up">
                                             <a className="text-link-bold" href="tel:+94765781398">
-                                                +94 767 740 385
+                                                +94 765 781 398
                                             </a>
                                         </p>
                                     </div>
@@ -1966,7 +1965,7 @@ const Home: React.FC = () => {
                                         <p className="contact-lines__text animate-in-up">
                                             <a
                                                 className="text-link-bold"
-                                                href="mailto:wikum.dev@gmail.com?subject=Message%20from%20your%20site"
+                                                href="mailto:wikum.dev@gmail.com"
                                             >
                                                 wikum.dev@gmail.com
                                             </a>
