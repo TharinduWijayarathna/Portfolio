@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                                         <text>
                                             {/* button text here!!! */}
                                             <textPath xlinkHref="#textPath">
-                                        
+
                                             </textPath>
                                         </text>
                                     </g>
@@ -100,7 +100,7 @@ const Home: React.FC = () => {
                     {/* About Section Start */}
                     <section id="about" className="inner about">
                         {/* Content Block - H2 Section Title Start */}
-                        <div className="content__block section-grid-title">
+                        <div className="content__block text-start section-grid-title text-start">
                             <p className="h2__subtitle animate-in-up">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H2 Section Title End */}
                         {/* Content Block - Achievements Start */}
-                        <div className="content__block grid-block">
+                        <div className="content__block text-start grid-block">
                             <div className="achievements d-flex flex-column flex-md-row align-items-md-stretch">
                                 {/* achievements single item */}
                                 <div className="achievements__item d-flex flex-column grid-item animate-card-3">
@@ -153,7 +153,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Achievements End */}
                         {/* Content Block - About Me Data Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             <div className="container-fluid p-0">
                                 <div className="row g-0 justify-content-between">
                                     {/* About Me Description Start */}
@@ -184,7 +184,7 @@ const Home: React.FC = () => {
                                                 href="/TharinduWijayarathna.pdf"
                                                 download="TharinduWijayarathna.pdf"
                                             >
-        
+
                                                 <span className="btn-caption">Download CV</span>
                                                 <i className="ph-bold ph-download-simple" />
                                             </a>
@@ -231,7 +231,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - About Me Data End */}
                         {/* Content Block - Services Start */}
-                        <div className="content__block grid-block">
+                        <div className="content__block text-start grid-block">
                             <div className="container-fluid p-0">
                                 <div className="row g-0 align-items-stretch cards">
                                     {/* services cards grid single item */}
@@ -358,7 +358,7 @@ const Home: React.FC = () => {
                     {/* Resume Section Start */}
                     <section id="resume" className="inner resume">
                         {/* Content Block - H2 Section Title Start */}
-                        <div className="content__block block-large">
+                        <div className="content__block text-start block-large text-start">
                             <p className="h2__subtitle animate-in-up">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -393,7 +393,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H2 Section Title End */}
                         {/* Content Block - Education Start */}
-                        <div className="content__block block-large">
+                        <div className="content__block text-start block-large">
                             {/* H3 Block Start */}
                             <div className="section-h3">
                                 <h3 className="h3__title animate-in-up extra-padding">
@@ -407,43 +407,12 @@ const Home: React.FC = () => {
                                 <div className="row g-0 resume-lines__item animate-in-up">
                                     <div className="col-12 col-md-2">
                                         <span className="resume-lines__date animate-in-up">
-                                            Sep 2023 – Apr 2024
+                                            Feb 2023 – Present
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <h5 className="resume-lines__title animate-in-up">
-                                            B.Sc. (Hons) Computer Science &amp; Software Engineering
-                                        </h5>
-                                        <p className="resume-lines__source animate-in-up">
-                                            University of Bedfordshire | SLIIT City UNI
-                                        </p>
-                                    </div>
-                                    <div className="col-12 col-md-5">
-                                        <p className="small resume-lines__descr animate-in-up text-white">
-                                            Pending Results
-                                        </p>
-                                        <p className="small resume-lines__descr animate-in-up">
-                                            Gained comprehensive knowledge in computer science and
-                                            software engineering. Worked on an individual project
-                                            incorporating AI technology, which was highly praised for
-                                            its innovation. Additionally, I reviewed fundamental
-                                            programming and technologies, implemented a randomizing
-                                            API, and created a game. In the final group project, I
-                                            served as the project manager, successfully leading my
-                                            team to project completion using the PRINCE2 methodology.
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* education single item */}
-                                <div className="row g-0 resume-lines__item animate-in-up">
-                                    <div className="col-12 col-md-2">
-                                        <span className="resume-lines__date animate-in-up">
-                                            May 2021 – Jan 2023
-                                        </span>
-                                    </div>
-                                    <div className="col-12 col-md-5">
-                                        <h5 className="resume-lines__title animate-in-up">
-                                            HD in Computing &amp; Software Engineering
+                                            Bsc (Hons) in Software Engineering
                                         </h5>
                                         <p className="resume-lines__source animate-in-up">
                                             Cardiff Metropolitan University | ICBT Kandy Campus
@@ -451,7 +420,7 @@ const Home: React.FC = () => {
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <p className="small resume-lines__descr animate-in-up text-white">
-                                            Merit
+                                            Pending
                                         </p>
                                         <p className="small resume-lines__descr animate-in-up">
                                             Deepened my understanding of computer science fundamentals
@@ -466,36 +435,34 @@ const Home: React.FC = () => {
                                         </p>
                                     </div>
                                 </div>
+                            </div>
+                            <div className="container-fluid p-0 resume-lines">
                                 {/* education single item */}
                                 <div className="row g-0 resume-lines__item animate-in-up">
                                     <div className="col-12 col-md-2">
                                         <span className="resume-lines__date animate-in-up">
-                                            Jan 2007 – Oct 2020
+                                            Feb 2021 – Present
                                         </span>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <h5 className="resume-lines__title animate-in-up">
-                                            Physical Science
+                                            Professional Diploma in Software Engineering
                                         </h5>
                                         <p className="resume-lines__source animate-in-up">
-                                            Kingswood College Kandy
+                                            Java Institute for Advanced Technology
                                         </p>
                                     </div>
                                     <div className="col-12 col-md-5">
                                         <p className="small resume-lines__descr animate-in-up text-white">
-                                            ICT: B | Physics: S | Combined Maths: S
+                                            Merit
                                         </p>
                                         <p className="small resume-lines__descr animate-in-up">
-                                            My education at Kingswood College provided a strong
-                                            foundation in science and mathematics. The rigorous
-                                            curriculum included intensive subjects which fostered my
-                                            analytical and problem-solving abilities. As an
-                                            all-rounder, I played table tennis and led the team in my
-                                            final years. I also engaged in Eastern music, becoming an
-                                            all-island first-place winner several times. These diverse
-                                            experiences helped me develop critical thinking,
-                                            leadership, and teamwork skills, which have been
-                                            invaluable in my academic and professional pursuits.
+                                            Gained in-depth knowledge of software development
+                                            principles and practices, focusing on Java-based
+                                            technologies. Developed proficiency in Java programming,
+                                            web development, and database management. Completed
+                                            several hands-on projects, including a fully functional
+                                            web application, to demonstrate my skills and knowledge.
                                         </p>
                                     </div>
                                 </div>
@@ -504,7 +471,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Education End */}
                         {/* Content Block - Experience Start */}
-                        <div className="content__block block-large">
+                        <div className="content__block text-start block-large">
                             {/* H3 Block Start */}
                             <div className="section-h3">
                                 <h3 className="h3__title animate-in-up extra-padding">
@@ -601,7 +568,7 @@ const Home: React.FC = () => {
                     {/* Resume Section End */}
                     {/* Content Block - H2 Block Start */}
                     <section id="skills" className="inner skills">
-                        <div className="content__block section-title">
+                        <div className="content__block text-start section-title">
                             <p className="h2__subtitle animate-in-up">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -624,7 +591,7 @@ const Home: React.FC = () => {
                             <h2 className="h2__title animate-in-up">Review My Skill Set</h2>
                         </div>
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">
                                     Frameworks &amp; Libraries
@@ -633,7 +600,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -771,7 +738,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Tools List End */}
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">
                                     Programming Languages
@@ -780,7 +747,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -908,7 +875,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Tools List End */}
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">
                                     Database Technologies
@@ -917,7 +884,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -977,7 +944,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Tools List End */}
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">
                                     Version Control &amp; Project Management
@@ -986,7 +953,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -1055,14 +1022,14 @@ const Home: React.FC = () => {
                             {/* Content Block - Tools List End */}
                         </div>
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">Cloud Platforms</h3>
                             </div>
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -1133,7 +1100,7 @@ const Home: React.FC = () => {
                             {/* Content Block - Tools List End */}
                         </div>
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">
                                     Content Management Systems
@@ -1142,7 +1109,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -1176,14 +1143,14 @@ const Home: React.FC = () => {
                             {/* Content Block - Tools List End */}
                         </div>
                         {/* Content Block - H3 Block Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="section-h3 section-h3-grid">
                                 <h3 className="h3__title animate-in-up">Design Tools</h3>
                             </div>
                         </div>
                         {/* Content Block - H3 Block End */}
                         {/* Content Block - Tools List Start */}
-                        <div className="content__block grid-block block-large">
+                        <div className="content__block text-start grid-block block-large">
                             {/* Tools List Start */}
                             <div className="tools-cards d-flex justify-content-start flex-wrap">
                                 {/* tools simgle item */}
@@ -1232,7 +1199,7 @@ const Home: React.FC = () => {
                     {/* Portfolio Section Start */}
                     <section id="portfolio" className="inner inner-first portfolio">
                         {/* Content Block - H2 Section Title Start */}
-                        <div className="content__block section-grid-title">
+                        <div className="content__block text-start section-grid-title">
                             <p className="h2__subtitle animate-in-up">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1258,7 +1225,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H2 Section Title End */}
                         {/* Content Block - Works Gallery Start */}
-                        <div className="content__block grid-block">
+                        <div className="content__block text-start grid-block">
                             <div className="container-fluid px-0 inner__gallery">
                                 <div
                                     className="row gx-0 my-gallery"
@@ -1754,7 +1721,7 @@ const Home: React.FC = () => {
                     {/* Contact Section Start */}
                     <section id="contact" className="inner contact">
                         {/* Content Block - H2 Section Title Start */}
-                        <div className="content__block section-title">
+                        <div className="content__block text-start section-title">
                             <p className="h2__subtitle  animate-in-up">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1780,7 +1747,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - H2 Section Title End */}
                         {/* Content Block - Contact Form Start */}
-                        <div className="content__block grid-block block-grid-large">
+                        <div className="content__block text-start grid-block block-grid-large">
                             <div className="form-container">
                                 {/* Reply Messages Start */}
                                 <div className="form__reply centered text-center">
@@ -1792,7 +1759,7 @@ const Home: React.FC = () => {
                                 </div>
                                 {/* Reply Messages End */}
                                 {/* Contact Form Start */}
-                                <div className="content__block grid-block block-grid-large">
+                                <div className="content__block text-start grid-block block-grid-large">
                                     <div className="form-container">
                                         {/* Reply Messages Start */}
                                         <div
@@ -1887,7 +1854,7 @@ const Home: React.FC = () => {
                             </div>
                         </div>
                         {/* Content Block - Contact Form End */}
-                        <div className="content__block grid-block">
+                        <div className="content__block text-start grid-block">
                             <div className="socials-cards d-flex justify-content-start flex-wrap">
                                 {/* socials item */}
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
@@ -1948,7 +1915,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Socials Cards End */}
                         {/* Content Block - Teaser Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="teaser">
                                 <p className="teaser__text animate-in-up">
                                     If you're interested in having me on your team, let's talk!
@@ -1969,7 +1936,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Teaser End */}
                         {/* Content Block - Contact Data Start */}
-                        <div className="content__block">
+                        <div className="content__block text-start">
                             <div className="container-fluid p-0 contact-lines animate-in-up">
                                 <div className="row g-0 contact-lines__item">
                                     {/* data item */}
