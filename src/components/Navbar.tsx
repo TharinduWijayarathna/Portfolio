@@ -55,11 +55,12 @@ const Navbar = () => {
                     <a
                         id="notify-trigger"
                         className="header__trigger btn"
-                        href="#contact"
+                        href="mailto:wikum.dev@gmail.com?subject=Let's%20Communicate"
                     >
                         <span className="trigger__caption">Let's Communicate</span>
-                        <i className="ph-bold ph-chat-dots" />
+                        <i className="ph-bold ph-chat-dots"></i>
                     </a>
+
                 </div>
                 {/* Header Controls End */}
             </header>
