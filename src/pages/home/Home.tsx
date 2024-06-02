@@ -25,8 +25,8 @@ const Home: React.FC = () => {
         e.preventDefault();
 
         emailjs.send(
-            'service_bhij8rr', // Replace with your Service ID
-            'template_4jov0yt', // Replace with your Template ID
+            'service_reur3ak', // Replace with your Service ID
+            'template_91idtnp', // Replace with your Template ID
             formData,
             '6IN1I7v-Vw55vpnaw' // Replace with your User ID
         ).then((response) => {
