@@ -108,7 +108,7 @@ const Home: React.FC = () => {
                         {/* Headline End */}
                         {/* Scroll Button Start */}
                         <div className="rotating-btn">
-                            <a href="#portfolio" className="rotating-btn__link slide-down">
+                            <a href="#footer" className="rotating-btn__link slide-down">
                                 {/* SVG rotating text */}
                                 <svg
                                     version="1.1"
@@ -1983,7 +1983,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Teaser End */}
                         {/* Content Block - Contact Data Start */}
-                        <div className="content__block text-start">
+                        <div className="content__block text-start" id="footer">
                             <div className="container-fluid p-0 contact-lines animate-in-up">
                                 <div className="row g-0 contact-lines__item">
                                     {/* data item */}
