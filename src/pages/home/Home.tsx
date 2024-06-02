@@ -1,8 +1,50 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AppLayout from "../../layouts/AppLayout";
 import { useNavigate } from "react-router-dom";
+import emailjs from 'emailjs-com';
 
 const Home: React.FC = () => {
+
+    const [formData, setFormData] = useState({
+        Name: '',
+        Company: '',
+        'E-mail': '',
+        Phone: '',
+        Message: '',
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+
+        emailjs.send(
+            'service_bhij8rr', // Replace with your Service ID
+            'template_4jov0yt', // Replace with your Template ID
+            formData,
+            '6IN1I7v-Vw55vpnaw' // Replace with your User ID
+        ).then((response) => {
+            console.log('Email successfully sent!', response.status, response.text);
+            alert('Email sent successfully!');
+            setFormData({
+                Name: '',
+                Company: '',
+                'E-mail': '',
+                Phone: '',
+                Message: '',
+            });
+        }).catch((err) => {
+            console.error('Failed to send email. Error: ', err);
+            alert('Failed to send email.');
+        });
+    };
+
     return (
         <AppLayout>
             <div id="content" className="content">
@@ -1774,29 +1816,12 @@ const Home: React.FC = () => {
                                         </div>
                                         {/* Reply Messages End */}
                                         {/* Contact Form Start */}
-                                        <form
-                                            className="form contact-form"
-                                            id="contact-form"
-                                            action="{{ route('contact.send') }}"
-                                            method="post"
-                                        >
+                                        <form className="form contact-form" id="contact-form" onSubmit={handleSubmit}>
                                             {/* Hidden Required Fields */}
-                                            <input
-                                                type="hidden"
-                                                name="project_name"
-                                                defaultValue="Starter Template"
-                                            />
-                                            <input
-                                                type="hidden"
-                                                name="admin_email"
-                                                defaultValue="support@mixdesign.club"
-                                            />
-                                            <input
-                                                type="hidden"
-                                                name="form_subject"
-                                                defaultValue="Contact Form Message"
-                                            />
-                                            {/* END Hidden Required Fields*/}
+                                            <input type="hidden" name="project_name" defaultValue="Starter Template" />
+                                            <input type="hidden" name="admin_email" defaultValue="support@mixdesign.club" />
+                                            <input type="hidden" name="form_subject" defaultValue="Contact Form Message" />
+                                            {/* END Hidden Required Fields */}
                                             <div className="container-fluid p-0">
                                                 <div className="row gx-0">
                                                     <div className="col-12 col-md-6 form__item animate-in-up">
@@ -1804,6 +1829,9 @@ const Home: React.FC = () => {
                                                             type="text"
                                                             name="Name"
                                                             placeholder="Your Name*"
+                                                            value={formData.Name}
+                                                            onChange={handleChange}
+                                                            required
                                                         />
                                                     </div>
                                                     <div className="col-12 col-md-6 form__item animate-in-up">
@@ -1811,6 +1839,8 @@ const Home: React.FC = () => {
                                                             type="text"
                                                             name="Company"
                                                             placeholder="Company Name/ Subject"
+                                                            value={formData.Company}
+                                                            onChange={handleChange}
                                                         />
                                                     </div>
                                                     <div className="col-12 col-md-6 form__item animate-in-up">
@@ -1818,6 +1848,9 @@ const Home: React.FC = () => {
                                                             type="email"
                                                             name="E-mail"
                                                             placeholder="Email Address*"
+                                                            value={formData['E-mail']}
+                                                            onChange={handleChange}
+                                                            required
                                                         />
                                                     </div>
                                                     <div className="col-12 col-md-6 form__item animate-in-up">
@@ -1825,20 +1858,21 @@ const Home: React.FC = () => {
                                                             type="tel"
                                                             name="Phone"
                                                             placeholder="Phone Number*"
+                                                            value={formData.Phone}
+                                                            onChange={handleChange}
                                                         />
                                                     </div>
                                                     <div className="col-12 form__item animate-in-up">
                                                         <textarea
                                                             name="Message"
                                                             placeholder="Compose your message. Press Enter [ ↲ ] for new lines. Don't worry, pressing Enter won't send it.*"
-                                                            defaultValue={""}
+                                                            value={formData.Message}
+                                                            onChange={handleChange}
+                                                            required
                                                         />
                                                     </div>
                                                     <div className="col-12 form__item animate-in-up">
-                                                        <button
-                                                            className="btn btn-default btn-hover btn-hover-accent"
-                                                            type="submit"
-                                                        >
+                                                        <button className="btn btn-default btn-hover btn-hover-accent" type="submit">
                                                             <span className="btn-caption">Send Message</span>
                                                             <i className="ph-bold ph-paper-plane-tilt" />
                                                         </button>
