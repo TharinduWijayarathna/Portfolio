@@ -11,12 +11,12 @@ const Sidebar = () => {
                     <div className="avatar__block">
                         <div className="avatar__logo d-flex align-items-center">
                             <div className="logo__caption">
-                                <p>Lankesh Halangoda</p>
+                                <p>Tharindu Wijayarathna</p>
                             </div>
                         </div>
                         <div className="avatar__image">
                             <img
-                                src="assets/img/avatars/lankesh.jpeg"
+                                src="assets/img/avatars/avatar.jpeg"
                                 alt="Braxton - Personal Portfolio & Resume HTML Template Avatar"
                             />
                         </div>
@@ -25,7 +25,7 @@ const Sidebar = () => {
                     <div className="avatar__block">
                         <h6>
                             <small className="top">Designation:</small>
-                            Software Engineering Professional
+                            Senior Software Engineer
                         </h6>
                     </div>
                     {/* data caption #2 */}
@@ -42,7 +42,7 @@ const Sidebar = () => {
                                 <li className="socials-square__item">
                                     <a
                                         className="socials-square__link btn"
-                                        href="https://www.linkedin.com/in/lankeshhalangoda/"
+                                        href="https://www.linkedin.com/in/tharindu-wijayarathna-98499a203//"
                                         target="_blank"
                                     >
                                         <i className="fa-brands fa-linkedin-in" />
@@ -51,7 +51,7 @@ const Sidebar = () => {
                                 <li className="socials-square__item">
                                     <a
                                         className="socials-square__link btn"
-                                        href="https://github.com/lankeshhalangoda"
+                                        href="https://github.com/TharinduWijayarathna"
                                         target="_blank"
                                     >
                                         <i className="fa-brands fa-github" />
@@ -60,7 +60,7 @@ const Sidebar = () => {
                                 <li className="socials-square__item">
                                     <a
                                         className="socials-square__link btn"
-                                        href="https://stackoverflow.com/users/23758725/lankesh-halangoda"
+                                        href="https://stackoverflow.com/users/17042914/tharindu-wijayarathna"
                                         target="_blank"
                                     >
                                         <i className="fa-brands fa-stack-overflow" />
@@ -78,7 +78,7 @@ const Sidebar = () => {
                                 <li className="socials-square__item">
                                     <a
                                         className="socials-square__link btn"
-                                        href="https://www.facebook.com/reallankelk"
+                                        href="https://web.facebook.com/tharinduwijayarathna.ck"
                                         target="_blank"
                                     >
                                         <i className="fa-brands fa-facebook-f" />

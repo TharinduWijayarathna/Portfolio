@@ -34,8 +34,8 @@ const Home: React.FC = () => {
                                 </svg>
                                 <span>Introducing myself!</span>
                             </p>
-                            <h1 className="headline__title animate-headline">
-                                I'm Lankesh Halangoda,
+                            <h1 className="headline__title animate-headline text-start">
+                                I'm Tharindu Wijayarathna,
                                 <br />a proactive software professional passionate about
                                 leveraging technology to drive positive change.
                             </h1>
@@ -49,8 +49,8 @@ const Home: React.FC = () => {
                                 </a>
                                 <a
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
-                                    href="LankeshHalangodaCV.pdf"
-                                    download="LankeshHalangodaCV.pdf"
+                                    href="/TharinduWijayarathna.pdf"
+                                    download="TharinduWijayarathna.pdf"
                                 >
                                     <span className="btn-caption">Download CV</span>
                                     <i className="ph-bold ph-download-simple" />
@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                                         <text>
                                             {/* button text here!!! */}
                                             <textPath xlinkHref="#textPath">
-                                                Scroll down for more information
+                                        
                                             </textPath>
                                         </text>
                                     </g>
@@ -131,14 +131,14 @@ const Home: React.FC = () => {
                                 {/* achievements single item */}
                                 <div className="achievements__item d-flex flex-column grid-item animate-card-3">
                                     <div className="achievements__card">
-                                        <p className="achievements__number">10+</p>
+                                        <p className="achievements__number">15+</p>
                                         <p className="achievements__descr">Personal clients</p>
                                     </div>
                                 </div>
                                 {/* achievements single item */}
                                 <div className="achievements__item d-flex flex-column grid-item animate-card-3">
                                     <div className="achievements__card">
-                                        <p className="achievements__number">1+</p>
+                                        <p className="achievements__number">4+</p>
                                         <p className="achievements__descr">Years of experience</p>
                                     </div>
                                 </div>
@@ -181,9 +181,10 @@ const Home: React.FC = () => {
                                         <div className="btn-group about-descr__btnholder animate-in-up">
                                             <a
                                                 className="btn mobile-vertical btn-default btn-hover btn-hover-accent"
-                                                href="/public/LankeshHalangodaCV.pdf"
-                                                download="LankeshHalangodaCV.pdf"
+                                                href="/TharinduWijayarathna.pdf"
+                                                download="TharinduWijayarathna.pdf"
                                             >
+        
                                                 <span className="btn-caption">Download CV</span>
                                                 <i className="ph-bold ph-download-simple" />
                                             </a>
@@ -195,14 +196,14 @@ const Home: React.FC = () => {
                                         <div className="about-info__item animate-in-up">
                                             <h6>
                                                 <small className="top">Name</small>
-                                                Lankesh Halangoda
+                                                Tharindu Wijayarathna
                                             </h6>
                                         </div>
                                         <div className="about-info__item animate-in-up">
                                             <h6>
                                                 <small className="top">Phone</small>
-                                                <a className="text-link-bold" href="tel:+94767740385">
-                                                    +94767740385
+                                                <a className="text-link-bold" href="tel:+94765781398">
+                                                    +94765781398
                                                 </a>
                                             </h6>
                                         </div>
@@ -211,9 +212,9 @@ const Home: React.FC = () => {
                                                 <small className="top">Email</small>
                                                 <a
                                                     className="text-link-bold"
-                                                    href="mailto:lankeshhalangoda@gmail.com?subject=Message%20from%20your%20site"
+                                                    href="mailto:wikum.dev@gmail.com?subject=Message%20from%20your%20site"
                                                 >
-                                                    lankeshhalangoda@gmail.com
+                                                    wikum.dev@gmail.com
                                                 </a>
                                             </h6>
                                         </div>
@@ -1813,7 +1814,6 @@ const Home: React.FC = () => {
                                             action="{{ route('contact.send') }}"
                                             method="post"
                                         >
-                                            @csrf
                                             {/* Hidden Required Fields */}
                                             <input
                                                 type="hidden"
@@ -1895,7 +1895,7 @@ const Home: React.FC = () => {
                                         <i className="fa-brands fa-linkedin-in" />
                                         <a
                                             className="socials-cards__link"
-                                            href="https://www.linkedin.com/in/lankeshhalangoda"
+                                            href="https://www.linkedin.com/in/tharindu-wijayarathna-98499a203/"
                                             target="_blank"
                                         />
                                     </div>
@@ -1906,7 +1906,7 @@ const Home: React.FC = () => {
                                         <i className="fa-brands fa-github" />
                                         <a
                                             className="socials-cards__link"
-                                            href="https://github.com/lankeshhalangoda"
+                                            href="https://github.com/TharinduWijayarathna"
                                             target="_blank"
                                         />
                                     </div>
@@ -1917,7 +1917,7 @@ const Home: React.FC = () => {
                                         <i className="fa-brands fa-stack-overflow" />
                                         <a
                                             className="socials-cards__link"
-                                            href="https://stackoverflow.com/users/23758725/lankesh-halangoda"
+                                            href="https://stackoverflow.com/users/17042914/tharindu-wijayarathna"
                                             target="_blank"
                                         />
                                     </div>
@@ -1928,7 +1928,7 @@ const Home: React.FC = () => {
                                         <i className="fa-brands fa-x-twitter" />
                                         <a
                                             className="socials-cards__link"
-                                            href="https://twitter.com/lankelk"
+                                            href="https://twitter.com/wikum1100"
                                             target="_blank"
                                         />
                                     </div>
@@ -1939,7 +1939,7 @@ const Home: React.FC = () => {
                                         <i className="fa-brands fa-facebook-f" />
                                         <a
                                             className="socials-cards__link"
-                                            href="https://www.facebook.com/reallankelk"
+                                            href="https://web.facebook.com/tharinduwijayarathna.ck"
                                             target="_blank"
                                         />
                                     </div>
@@ -1959,7 +1959,7 @@ const Home: React.FC = () => {
                                     Drop me a line{" "}
                                     <a
                                         className="text-link-bold"
-                                        href="mailto:lankeshhalangoda@gmail.com?subject=Message%20from%20your%20site"
+                                        href="mailto:wikum.dev@gmail.com?subject=Message%20from%20your%20site"
                                     >
                                         here
                                     </a>
@@ -1988,7 +1988,7 @@ const Home: React.FC = () => {
                                     <div className="col-12 col-md-4 contact-lines__data">
                                         <p className="contact-lines__title animate-in-up">Phone</p>
                                         <p className="contact-lines__text animate-in-up">
-                                            <a className="text-link-bold" href="tel:+94767740385">
+                                            <a className="text-link-bold" href="tel:+94765781398">
                                                 +94 767 740 385
                                             </a>
                                         </p>
@@ -1999,9 +1999,9 @@ const Home: React.FC = () => {
                                         <p className="contact-lines__text animate-in-up">
                                             <a
                                                 className="text-link-bold"
-                                                href="mailto:lankeshhalangoda@gmail.com?subject=Message%20from%20your%20site"
+                                                href="mailto:wikum.dev@gmail.com?subject=Message%20from%20your%20site"
                                             >
-                                                lankeshhalangoda@gmail.com
+                                                wikum.dev@gmail.com
                                             </a>
                                         </p>
                                     </div>
