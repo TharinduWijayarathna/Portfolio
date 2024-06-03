@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AppLayout from "../../layouts/AppLayout";
 import emailjs from 'emailjs-com';
 
@@ -49,6 +49,38 @@ const Home: React.FC = () => {
                 setSuccess(null);
             });
     };
+
+    useEffect(() => {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.menu__link');
+
+        const options = {
+            threshold: 0.6,
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach((link) => {
+                        link.classList.remove('active');
+                        if ((link as HTMLAnchorElement).getAttribute('href') === `#${entry.target.id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, options);
+
+        sections.forEach((section) => {
+            observer.observe(section);
+        });
+
+        return () => {
+            sections.forEach((section) => {
+                observer.unobserve(section);
+            });
+        };
+    }, []);
 
 
     return (
