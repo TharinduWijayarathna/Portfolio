@@ -2405,8 +2405,8 @@ form textarea:required:valid {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 65px;
+  height: 65px;
   color: var(--t-bright);
   font-size: 2.2rem;
 }
@@ -2423,8 +2423,8 @@ form textarea:required:valid {
   position: absolute;
   top: 0;
   left: 0;
-  width: 120px;
-  height: 120px;
+  width: 65px;
+  height: 65px;
 }
 .rotating-btn__link svg text {
   fill: var(--t-bright);
@@ -2439,13 +2439,13 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1600px) {
   .rotating-btn__link {
-    width: 140px;
-    height: 140px;
+    width: 65px;
+    height: 65px;
     font-size: 2.6rem;
   }
   .rotating-btn__link svg {
-    width: 140px;
-    height: 140px;
+    width: 65px;
+    height: 65px;
   }
 }
 

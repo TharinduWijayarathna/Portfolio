@@ -108,8 +108,8 @@ const Home: React.FC = () => {
                         </div>
                         {/* Headline End */}
                         {/* Scroll Button Start */}
-                        <div className="rotating-btn">
-                            <Link to="#footer" className="rotating-btn__link slide-down">
+                        <div className="rotating-btn" >
+                            <Link to="#footer" className="rotating-btn__link slide-down" style={{ border: '5px', borderColor: 'white', borderStyle: 'solid', borderRadius: '100%' }}>
                                 {/* SVG rotating text */}
                                 <svg
                                     version="1.1"
@@ -129,11 +129,11 @@ const Home: React.FC = () => {
                                             d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z"
                                         />
                                     </defs>
-                                    <g>
+                                    <g >
                                         <use xlinkHref="#textPath" fill="none" />
-                                        <text>
+                                        <text >
                                             {/* button text here!!! */}
-                                            <textPath xlinkHref="#textPath">
+                                            <textPath xlinkHref="#textPath" >
 
                                             </textPath>
                                         </text>
