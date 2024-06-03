@@ -89,13 +89,13 @@ const Home: React.FC = () => {
                                 leveraging technology to drive positive change.
                             </h1>
                             <div className="headline__btnholder d-flex flex-column flex-sm-row">
-                                <Link
+                                <a
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
-                                    to="/works"
+                                    href="/works"
                                 >
                                     <span className="btn-caption">My Works</span>
                                     <i className="ph-bold ph-squares-four" />
-                                </Link>
+                                </a>
                                 <a
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
                                     href="/TharinduWijayarathna.pdf"
