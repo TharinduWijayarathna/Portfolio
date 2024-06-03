@@ -11,40 +11,40 @@ const Navbar = () => {
                     <nav id="menu" className="menu">
                         <ul className="menu__list d-flex justify-content-start">
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#home">
+                                <Link className="menu__link btn" to="#home">
                                     <span className="menu__caption">Home</span>
                                     <i className="ph-bold ph-house-simple" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#about">
+                                <Link className="menu__link btn" to="#about">
                                     <span className="menu__caption">About Me</span>
                                     <i className="ph-bold ph-user" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#resume">
+                                <Link className="menu__link btn" to="#resume">
                                     <span className="menu__caption">Resume</span>
                                     <i className="ph-bold ph-article" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#skills">
+                                <Link className="menu__link btn" to="#skills">
                                     <span className="menu__caption">Skills</span>
                                     <i className="fa-solid fa-laptop-code" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#portfolio">
+                                <Link className="menu__link btn" to="#portfolio">
                                     <span className="menu__caption">Portfolio</span>
                                     <i className="ph-bold ph-squares-four" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="menu__item">
-                                <a className="menu__link btn" href="#contact">
+                                <Link className="menu__link btn" to="#contact">
                                     <span className="menu__caption">Contact</span>
                                     <i className="ph-bold ph-envelope" />
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>
