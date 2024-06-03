@@ -11,31 +11,31 @@ const Navbar = () => {
                     <nav id="menu" className="menu">
                         <ul className="menu__list d-flex justify-content-start">
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#home">
+                                <Link className="menu__link btn" to="/#home">
                                     <span className="menu__caption">Home</span>
                                     <i className="ph-bold ph-house-simple" />
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#about">
+                                <Link className="menu__link btn" to="/#about">
                                     <span className="menu__caption">About Me</span>
                                     <i className="ph-bold ph-user" />
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#resume">
+                                <Link className="menu__link btn" to="/#resume">
                                     <span className="menu__caption">Resume</span>
                                     <i className="ph-bold ph-article" />
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#skills">
+                                <Link className="menu__link btn" to="/#skills">
                                     <span className="menu__caption">Skills</span>
                                     <i className="fa-solid fa-laptop-code" />
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#contact">
+                                <Link className="menu__link btn" to="/#contact">
                                     <span className="menu__caption">Contact</span>
                                     <i className="ph-bold ph-envelope" />
                                 </Link>
