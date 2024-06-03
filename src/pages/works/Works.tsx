@@ -1,10 +1,11 @@
-import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import AppLayout from "../../layouts/AppLayout";
 
 const Works = () => {
     return (
-     <></>
 
+        <AppLayout>
+            <h1>Works</h1>
+        </AppLayout>
     );
 };
 
