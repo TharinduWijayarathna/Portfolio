@@ -89,13 +89,13 @@ const Home: React.FC = () => {
                                 leveraging technology to drive positive change.
                             </h1>
                             <div className="headline__btnholder d-flex flex-column flex-sm-row">
-                                <a
+                                <Link
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
-                                    href="#portfolio"
+                                    to="/works"
                                 >
                                     <span className="btn-caption">My Works</span>
                                     <i className="ph-bold ph-squares-four" />
-                                </a>
+                                </Link>
                                 <a
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
                                     href="/TharinduWijayarathna.pdf"
@@ -109,7 +109,7 @@ const Home: React.FC = () => {
                         {/* Headline End */}
                         {/* Scroll Button Start */}
                         <div className="rotating-btn">
-                            <Link to="/works" className="rotating-btn__link slide-down">
+                            <Link to="#footer" className="rotating-btn__link slide-down">
                                 {/* SVG rotating text */}
                                 <svg
                                     version="1.1"
