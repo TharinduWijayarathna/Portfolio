@@ -90,7 +90,7 @@ const Home: React.FC = () => {
                             <div className="headline__btnholder d-flex flex-column flex-sm-row">
                                 <a
                                     className="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
-                                    href="#my_portfolio"
+                                    href="#portfolio"
                                 >
                                     <span className="btn-caption">My Works</span>
                                     <i className="ph-bold ph-squares-four" />

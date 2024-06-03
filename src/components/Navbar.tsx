@@ -35,7 +35,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#my_portfolio">
+                                <Link className="menu__link btn" to="#portfolio">
                                     <span className="menu__caption">Portfolio</span>
                                     <i className="ph-bold ph-squares-four" />
                                 </Link>

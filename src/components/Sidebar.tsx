@@ -17,7 +17,7 @@ const Sidebar = () => {
                         <div className="avatar__image">
                             <img
                                 src="assets/img/avatars/avatar.jpeg"
-                                alt="Braxton - Personal Portfolio & Resume HTML Template Avatar"
+                                alt="Tharindu Wijayarathna"
                             />
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Sidebar = () => {
                                     <a
                                         className="socials-square__link btn"
                                         href="https://www.linkedin.com/in/tharindu-wijayarathna-98499a203//"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         <i className="fa-brands fa-linkedin-in" />
                                     </a>
@@ -52,7 +52,7 @@ const Sidebar = () => {
                                     <a
                                         className="socials-square__link btn"
                                         href="https://github.com/TharinduWijayarathna"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         <i className="fa-brands fa-github" />
                                     </a>
@@ -61,7 +61,7 @@ const Sidebar = () => {
                                     <a
                                         className="socials-square__link btn"
                                         href="https://stackoverflow.com/users/17042914/tharindu-wijayarathna"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         <i className="fa-brands fa-stack-overflow" />
                                     </a>
@@ -70,7 +70,7 @@ const Sidebar = () => {
                                     <a
                                         className="socials-square__link btn"
                                         href="https://twitter.com/wikum1100"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         <i className="fa-brands fa-x-twitter" />
                                     </a>
@@ -79,7 +79,7 @@ const Sidebar = () => {
                                     <a
                                         className="socials-square__link btn"
                                         href="https://web.facebook.com/tharinduwijayarathna.ck"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         <i className="fa-brands fa-facebook-f" />
                                     </a>
