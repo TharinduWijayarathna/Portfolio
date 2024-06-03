@@ -35,12 +35,6 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="menu__item">
-                                <Link className="menu__link btn" to="#portfolio">
-                                    <span className="menu__caption">Portfolio</span>
-                                    <i className="ph-bold ph-squares-four" />
-                                </Link>
-                            </li>
-                            <li className="menu__item">
                                 <Link className="menu__link btn" to="#contact">
                                     <span className="menu__caption">Contact</span>
                                     <i className="ph-bold ph-envelope" />
