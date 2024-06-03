@@ -307,7 +307,7 @@ const Home: React.FC = () => {
                                             <div className="cards__image d-flex animate-in-up">
                                                 <img
                                                     src="assets/img/services/web.svg"
-                                                    alt="Service/Feature Image"
+                                                    alt="Services"
                                                 />
                                             </div>
                                         </div>
@@ -335,7 +335,7 @@ const Home: React.FC = () => {
                                             <div className="cards__image d-flex">
                                                 <img
                                                     src="assets/img/services/mobile.svg"
-                                                    alt="Service/Feature Image"
+                                                    alt="Services"
                                                 />
                                             </div>
                                         </div>
@@ -364,7 +364,7 @@ const Home: React.FC = () => {
                                             <div className="cards__image d-flex animate-in-up">
                                                 <img
                                                     src="assets/img/services/1200x900_s02.webp"
-                                                    alt="Service/Feature Image"
+                                                    alt="Services"
                                                 />
                                             </div>
                                         </div>
@@ -393,7 +393,7 @@ const Home: React.FC = () => {
                                             <div className="cards__image d-flex animate-in-up">
                                                 <img
                                                     src="assets/img/services/1200x900_s04.webp"
-                                                    alt="Service/Feature Image"
+                                                    alt="Services"
                                                 />
                                             </div>
                                         </div>
@@ -1386,10 +1386,10 @@ const Home: React.FC = () => {
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
                                     <div className="socials-cards__card">
                                         <i className="fa-brands fa-linkedin-in" />
-                                        <a
+                                        <Link
                                             className="socials-cards__link"
-                                            href="https://www.linkedin.com/in/tharindu-wijayarathna-98499a203/"
-                                            target="_blank"
+                                            to="https://www.linkedin.com/in/tharindu-wijayarathna-98499a203/"
+                                            target="_blank" rel="noreferrer"
                                         />
                                     </div>
                                 </div>
@@ -1397,9 +1397,9 @@ const Home: React.FC = () => {
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
                                     <div className="socials-cards__card">
                                         <i className="fa-brands fa-github" />
-                                        <a
+                                        <Link
                                             className="socials-cards__link"
-                                            href="https://github.com/TharinduWijayarathna"
+                                            to="https://github.com/TharinduWijayarathna"
                                             target="_blank"
                                         />
                                     </div>
@@ -1408,9 +1408,9 @@ const Home: React.FC = () => {
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
                                     <div className="socials-cards__card">
                                         <i className="fa-brands fa-stack-overflow" />
-                                        <a
+                                        <Link
                                             className="socials-cards__link"
-                                            href="https://stackoverflow.com/users/17042914/tharindu-wijayarathna"
+                                            to="https://stackoverflow.com/users/17042914/tharindu-wijayarathna"
                                             target="_blank"
                                         />
                                     </div>
@@ -1419,9 +1419,9 @@ const Home: React.FC = () => {
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
                                     <div className="socials-cards__card">
                                         <i className="fa-brands fa-x-twitter" />
-                                        <a
+                                        <Link
                                             className="socials-cards__link"
-                                            href="https://twitter.com/wikum1100"
+                                            to="https://twitter.com/wikum1100"
                                             target="_blank"
                                         />
                                     </div>
@@ -1430,9 +1430,9 @@ const Home: React.FC = () => {
                                 <div className="socials-cards__item d-flex grid-item-s animate-card-5">
                                     <div className="socials-cards__card">
                                         <i className="fa-brands fa-facebook-f" />
-                                        <a
+                                        <Link
                                             className="socials-cards__link"
-                                            href="https://web.facebook.com/tharinduwijayarathna.ck"
+                                            to="https://web.facebook.com/tharinduwijayarathna.ck"
                                             target="_blank"
                                         />
                                     </div>
@@ -1462,7 +1462,7 @@ const Home: React.FC = () => {
                         </div>
                         {/* Content Block - Teaser End */}
                         {/* Content Block - Contact Data Start */}
-                        <div className="content__block text-start">
+                        <div className="content__block text-start" id="footer">
                             <div className="container-fluid p-0 contact-lines animate-in-up">
                                 <div className="row g-0 contact-lines__item">
                                     {/* data item */}
@@ -1471,19 +1471,19 @@ const Home: React.FC = () => {
                                             Location
                                         </p>
                                         <p className="contact-lines__text animate-in-up">
-                                            <a className="text-link-bold" href="" target="_blank">
+                                            <span className="text-link-bold">
                                                 No. 79, Hapugoda, Ambatenna, <br />
                                                 Kandy, Sri Lanka (20136)
-                                            </a>
+                                            </span>
                                         </p>
                                     </div>
                                     {/* data item */}
                                     <div className="col-12 col-md-4 contact-lines__data">
                                         <p className="contact-lines__title animate-in-up">Phone</p>
                                         <p className="contact-lines__text animate-in-up">
-                                            <a className="text-link-bold" href="tel:+94765781398">
+                                            <Link className="text-link-bold" to="tel:+94765781398">
                                                 +94 765 781 398
-                                            </a>
+                                            </Link>
                                         </p>
                                     </div>
                                     {/* data item */}

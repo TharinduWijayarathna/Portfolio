@@ -56,7 +56,7 @@ const Works = () => {
                                                 src="assets/img/works/slo.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -94,7 +94,7 @@ const Works = () => {
                                                 src="assets/img/works/janitor.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -131,7 +131,7 @@ const Works = () => {
                                                 src="assets/img/works/bdo.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -168,7 +168,7 @@ const Works = () => {
                                                 src="assets/img/works/harrison.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -209,7 +209,7 @@ const Works = () => {
                                                 src="assets/img/works/brokersnapshot-ui.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -250,7 +250,7 @@ const Works = () => {
                                                 src="assets/img/works/toymart.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -291,7 +291,7 @@ const Works = () => {
                                                 src="assets/img/works/math.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -332,7 +332,7 @@ const Works = () => {
                                                 src="assets/img/works/daisys.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -373,7 +373,7 @@ const Works = () => {
                                                 src="assets/img/works/slo-admin.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -414,7 +414,7 @@ const Works = () => {
                                                 src="assets/img/works/sunrise.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -455,7 +455,7 @@ const Works = () => {
                                                 src="assets/img/works/yien.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
@@ -496,7 +496,7 @@ const Works = () => {
                                                 src="assets/img/works/zenandsu.webp"
                                                 className="gallery__image"
                                                 itemProp="thumbnail"
-                                                alt="Image description"
+                                                 alt="gallery"
                                             />
                                         </a>
                                         <div
