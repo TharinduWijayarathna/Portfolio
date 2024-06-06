@@ -40,7 +40,6 @@ const Works = () => {
 
                                 >
                                     {/* Works Gallery Single Item Start */}
-
                                     <div
                                         className="col-12 col-md-6 grid-item animate-card-2"
 
@@ -62,10 +61,10 @@ const Works = () => {
                                             <h5>Smart Penguin</h5>
                                             <div className="card__tags d-flex flex-wrap">
                                                 <span className="rounded-tag opposite">
-                                                    Illustrations
+                                                    PHP
                                                 </span>
                                                 <span className="rounded-tag opposite">
-                                                    AI Experiment
+                                                    E-Commerce
                                                 </span>
                                             </div>
                                             <p className="small">
