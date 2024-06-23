@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
 
+    //get service id and template id and secret key from emailjs using env
+    const serviceId: string = process.env.REACT_APP_EMAILJS_SERVICE_ID as string;
+    const templateId: string = process.env.REACT_APP_EMAILJS_TEMPLATE_ID as string;
+    const secret: string = process.env.REACT_APP_EMAILJS_USER_ID as string;
+
     const [error, setError] = useState<string | null>(null);
     const [success, setSuccess] = useState<string | null>(null);
 
@@ -29,10 +34,10 @@ const Home: React.FC = () => {
 
         emailjs
             .send(
-                'service_reur3ak', // Replace with your Service ID
-                'template_91idtnp', // Replace with your Template ID
+                serviceId,
+                templateId,
                 formData,
-                '6IN1I7v-Vw55vpnaw' // Replace with your User ID
+                secret
             )
             .then((response) => {
                 setFormData({
